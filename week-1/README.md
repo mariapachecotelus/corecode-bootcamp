@@ -1,4 +1,4 @@
-# 🤔 Ensure question solution
+# 🤔 Ensure Question solution
 
 ```
 function ensureQuestion(str) {
@@ -13,4 +13,15 @@ function ensureQuestion(str) {
 }
 
 console.log(ensureQuestion('hey'))
+```
+
+# A Reversed Words solution
+
+```
+function reversedWords(arr) {
+  const arr1 = arr.reverse()
+  return arr1
+}
+
+console.log(reversedWords(['1', '2', '3']))
 ```
