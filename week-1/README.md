@@ -15,7 +15,7 @@ function ensureQuestion(str) {
 console.log(ensureQuestion('hey'))
 ```
 
-# A Reversed Words solution
+# 🔠 Reversed Words solution
 
 ```
 function reversedWords(arr) {
