@@ -34,5 +34,20 @@ function smallestInteger(arr) {
   return smallest
 }
 
-console.log(smallestInteger(['-6', '1', '3']))
+console.log(smallestInteger([-6, 1, 3]))
+```
+
+# 💻 Odd Or Even solution
+```
+function oddOrEven(arr) {
+  const sum = arr.reduce((previousSum, a) => previousSum + a, 0);
+
+  if(sum % 2 == 0){
+    return 'even'
+  }else{
+    return 'odd'
+  }
+}
+
+console.log(oddOrEven([6, 3, 3]))
 ```

@@ -3,4 +3,4 @@ function smallestInteger(arr) {
   return smallest
 }
 
-console.log(smallestInteger(['-6', '1', '3']))
+console.log(smallestInteger([-6, 1, 3]))
