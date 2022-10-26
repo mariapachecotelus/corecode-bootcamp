@@ -1,1 +1,1 @@
-# corecode-bootcamp
+# Core Code Bootcamp
