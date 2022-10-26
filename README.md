@@ -1,1 +1,2 @@
-# Core Code Bootcamp
+# ✨ Core Code Bootcamp
+
