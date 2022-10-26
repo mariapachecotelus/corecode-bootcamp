@@ -1,11 +1,12 @@
-function question(str) {
-  var result = false
+function ensureQuestion(str) {
+  var resultStr = ''
 
   if(str.endsWith('?')){
-    result = true
+    return str
+  }else{
+    resultStr = str.concat('?')
+    return resultStr
   }
-
-  return result
 }
 
-console.log(question('hey?'))
+console.log(ensureQuestion('hey1?'))
