@@ -25,3 +25,14 @@ function reversedWords(arr) {
 
 console.log(reversedWords(['1', '2', '3']))
 ```
+
+# 👧🏽 Smallest Integer In Array solution
+
+```
+function smallestInteger(arr) {
+  const smallest = Math.min(...arr)
+  return smallest
+}
+
+console.log(smallestInteger(['-6', '1', '3']))
+```
