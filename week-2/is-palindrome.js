@@ -13,4 +13,4 @@ const isPalindrome = (str) => {
   return 'is palindrome'
 }
 
-console.log(isPalindrome('anna'))
+console.log(isPalindrome('anna'));
